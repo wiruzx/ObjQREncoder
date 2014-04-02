@@ -32,7 +32,7 @@
   QRMatrix*         _matrix;
 }
 
-+ (UIImage *)encode:(NSString *)str scaleFactor:(int)scaleFactor;
-+ (UIImage *)encode:(NSString *)str size:(int)size correctionLevel:(QRCorrectionLevel)level scaleFactor:(int)scaleFactor;
++ (UIImage *)encode:(NSString *)str scaleFactor:(NSInteger)scaleFactor;
++ (UIImage *)encode:(NSString *)str size:(NSInteger)size correctionLevel:(QRCorrectionLevel)level scaleFactor:(NSInteger)scaleFactor;
 
 @end
